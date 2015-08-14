@@ -1,4 +1,5 @@
 'use strict';
+define(['jquery'], function ($) {
 
 /*
  * This file is to be included by beaver contest tasks, it defines a basic
@@ -178,3 +179,11 @@ var DelayedExec = {
       }
    }
 }
+
+return {
+   task: task,
+   grader: grader,
+   DelayedExec: DelayedExec
+};
+
+});
