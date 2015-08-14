@@ -94,7 +94,7 @@ task.getAnswer = function(callback) {
    callback(JSON.stringify(answerObj));
 };
 
-var grader = grader ? grader : {
+var grader = {
    acceptedAnswers : null,
    getAcceptedAnswers: function() {
       if (grader.acceptedAnswers) {
