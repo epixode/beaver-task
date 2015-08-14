@@ -95,7 +95,7 @@ task.getAnswer = function(callback) {
 };
 
 var grader = {
-   acceptedAnswers : null,
+   acceptedAnswers: null,
    getAcceptedAnswers: function() {
       if (grader.acceptedAnswers) {
          return grader.acceptedAnswers;
