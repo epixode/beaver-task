@@ -1,6 +1,6 @@
 'use strict';
 
-/* 
+/*
  * This file is to be included by beaver contest tasks, it defines a basic
  * implementation of the main functions of the task object, as well as a grader.
  *
@@ -175,6 +175,6 @@ var DelayedExec = {
       for(var name in DelayedExec.animations) {
          DelayedExec.animations[name].stop();
          delete DelayedExec.animations[name];
-      }      
+      }
    }
 }
