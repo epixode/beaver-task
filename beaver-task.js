@@ -49,7 +49,7 @@ task.getHeight = function(callback) {
 };
 
 task.unload = function(callback) {
-   if (typeof Tracker !== 'undefined') {
+   if (typeof Tracker !== 'undefined') { // XXX ref to global Tracker
       Tracker.endTrackInputs();
    }
    callback();
@@ -100,7 +100,7 @@ var grader = {
       if (grader.acceptedAnswers) {
          return grader.acceptedAnswers;
       }
-      if (json && json.acceptedAnswers) {
+      if (json && json.acceptedAnswers) { // XXX ref to global json
          return json.acceptedAnswers;
       }
       if (typeof getTaskResources === 'function') {
