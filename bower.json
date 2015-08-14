@@ -1,0 +1,7 @@
+{
+  "name": "beaver-task",
+  "version": "1.0",
+  "license": "MIT",
+  "ignore": ["**/.*"],
+  "main": "beaver-task.js"
+}
